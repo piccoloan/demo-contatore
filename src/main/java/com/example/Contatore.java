@@ -3,7 +3,7 @@ package com.example;
 public class Contatore {
     private int valore = 0;
 
-    public synchronized void incrementa() {
+    public void incrementa() {
         valore++;
     }
 
